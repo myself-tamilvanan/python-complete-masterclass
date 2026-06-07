@@ -1,14 +1,51 @@
-# Variables, Expressions, and Statements
+# Chapter 2: Variables, Expressions, and Statements
 
-## Note
-This chapter was covered in detail in the Python for Everybody course.
-Full README and program.py available in python_for_everybody_tutorial.zip
+## Overview
+This chapter covers the building blocks of Python: variables for storing data, expressions for computing values, and statements for actions.
 
-## Source
-Course: Python for Everybody (freeCodeCamp - Dr. Chuck)
-Video: https://youtu.be/8DvywoWv6fI
+## Topics Covered
+- Variables and assignment statements
+- Data types: int, float, string, bool
+- Type conversion functions: int(), float(), str()
+- Arithmetic operators and expressions
+- Order of operations (PEMDAS)
+- Comments in Python
+- User input with input()
+- String operations (concatenation, repetition)
 
-## Full Content
-Open python_for_everybody_tutorial.zip and navigate to 02_Variables_Expressions_Statements/ for:
-- Complete README.md with explanations, key concepts, timestamps
-- program.py with fully commented, runnable code examples
+## Key Concepts
+- **Variable**: A named location in memory that stores a value
+- **Assignment (=)**: Giving a variable a value
+- **Expression**: A combination of values and operators that evaluates to a value
+- **Statement**: A unit of code that Python executes
+- **Type**: The category of a value (int, float, str, bool)
+- **Type Conversion**: Converting a value from one type to another
+
+## Video Timestamps
+- 0:56:55 - Variables, Expressions, and Statements
+- 1:06:20 - Expressions in detail
+
+## Data Types
+| Type  | Example | Description        |
+|-------|---------|--------------------|
+| int   | 42      | Whole numbers      |
+| float | 3.14    | Decimal numbers    |
+| str   | "hello" | Text strings       |
+| bool  | True    | True/False values  |
+
+## Arithmetic Operators
+| Operator | Operation        | Example  | Result |
+|----------|-----------------|----------|--------|
+| +        | Addition         | 3 + 2    | 5      |
+| -        | Subtraction      | 5 - 2    | 3      |
+| *        | Multiplication   | 3 * 4    | 12     |
+| /        | Division         | 10 / 3   | 3.333  |
+| //       | Floor Division   | 10 // 3  | 3      |
+| %        | Modulo           | 10 % 3   | 1      |
+| **       | Exponentiation   | 2 ** 3   | 8      |
+
+## Learning Outcomes
+- Create and use variables correctly
+- Perform arithmetic operations
+- Convert between data types
+- Get and process user input

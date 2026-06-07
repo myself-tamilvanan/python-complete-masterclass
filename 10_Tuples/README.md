@@ -1,14 +1,38 @@
-# Tuples
+# Chapter 10: Tuples
 
-## Note
-This chapter was covered in detail in the Python for Everybody course.
-Full README and program.py available in python_for_everybody_tutorial.zip
+## Overview
+Tuples are ordered, immutable sequences. They are similar to lists but cannot be changed after creation, making them useful for fixed data and multiple return values.
 
-## Source
-Course: Python for Everybody (freeCodeCamp - Dr. Chuck)
-Video: https://youtu.be/8DvywoWv6fI
+## Topics Covered
+- Creating tuples
+- Accessing tuple elements
+- Tuple unpacking
+- Using tuples to sort dictionaries
+- Comparison of tuples
+- When to use tuples vs. lists
 
-## Full Content
-Open python_for_everybody_tutorial.zip and navigate to 10_Tuples/ for:
-- Complete README.md with explanations, key concepts, timestamps
-- program.py with fully commented, runnable code examples
+## Key Concepts
+- **Tuple**: An ordered, immutable collection
+- **Immutable**: Cannot be changed after creation
+- **Tuple Unpacking**: Assigning tuple values to multiple variables
+- **items()**: Returns dict items as list of tuples
+- **sorted()**: Sort list of tuples
+
+## Video Timestamps
+- 5:22:46 - Tuples
+- 5:32:18 - Tuples - Sorting
+- 5:44:26 - Sorting a Dictionary Using Tuples
+
+## Tuples vs. Lists
+| Feature     | Tuple           | List            |
+|-------------|-----------------|-----------------|
+| Syntax      | (1, 2, 3)       | [1, 2, 3]       |
+| Mutable     | No              | Yes             |
+| Speed       | Faster          | Slightly slower |
+| Use case    | Fixed data      | Changeable data |
+
+## Learning Outcomes
+- Create and use tuples
+- Unpack tuple values
+- Sort dictionaries by value using tuples
+- Choose between tuples and lists appropriately

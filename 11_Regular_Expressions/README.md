@@ -1,14 +1,45 @@
-# Regular Expressions
+# Chapter 11: Regular Expressions
 
-## Note
-This chapter was covered in detail in the Python for Everybody course.
-Full README and program.py available in python_for_everybody_tutorial.zip
+## Overview
+Regular expressions (regex) are a powerful tool for pattern matching and text processing. Python's `re` module provides full regex support.
 
-## Source
-Course: Python for Everybody (freeCodeCamp - Dr. Chuck)
-Video: https://youtu.be/8DvywoWv6fI
+## Topics Covered
+- The re module
+- Basic pattern matching with search()
+- Extracting data with findall()
+- Greedy vs. non-greedy matching
+- Special characters and character classes
+- Anchors (^ and $)
+- String parsing with regex
 
-## Full Content
-Open python_for_everybody_tutorial.zip and navigate to 11_Regular_Expressions/ for:
-- Complete README.md with explanations, key concepts, timestamps
-- program.py with fully commented, runnable code examples
+## Key Concepts
+- **Pattern**: A sequence of characters defining a search template
+- **Match**: When a pattern is found in a string
+- **Group**: A captured portion of a match
+- **Greedy**: Match as much as possible (default)
+- **Non-greedy**: Match as little as possible (use ?)
+
+## Video Timestamps
+- 5:54:56 - Regular Expressions
+- 6:05:21 - From Matching to Extracting
+- 6:13:47 - String Parsing with Regex
+
+## Common Regex Patterns
+| Pattern | Matches                           |
+|---------|-----------------------------------|
+| .       | Any character except newline      |
+| ^       | Start of string                   |
+| $       | End of string                     |
+| *       | 0 or more of previous             |
+| +       | 1 or more of previous             |
+| ?       | 0 or 1 of previous                |
+| [abc]   | Any of a, b, or c                 |
+| [a-z]   | Any lowercase letter              |
+| \d      | Any digit (0-9)                   |
+| \w      | Word character (letters+digits+_) |
+| \s      | Whitespace character              |
+
+## Learning Outcomes
+- Use re.search() to find patterns
+- Use re.findall() to extract data
+- Apply regex for parsing email, URLs, numbers

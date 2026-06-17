@@ -9,10 +9,11 @@
 |--------|--------|----------|
 | Python for Everybody (Beginner) | freeCodeCamp - Dr. Chuck | Ch 01-16 |
 | Tamil Python Masterclass (12 hrs) | Data Engineering - Gowtham | Ch 17-48 |
+| Intermediate Python (freeCodeCamp) | Patrick Loeber | Ch 49-63 |
 
 ---
 
-## Complete Chapter Index (48 Chapters)
+## Complete Chapter Index (63 Chapters)
 
 ### PART 1: Python Fundamentals (Ch 01-16)
 > Source: Python for Everybody | https://youtu.be/8DvywoWv6fI | freeCodeCamp
@@ -75,6 +76,27 @@
 | 47 | Functional Programming Tips | 11:20:16 | Immutability, composition, declarative style |
 | 48 | REST API | 11:33:57 | HTTP methods, requests library, status codes |
 
+### PART 3: Intermediate Python (Ch 49-63)
+> Source: Intermediate Python Programming Course | https://youtu.be/HGOBQPFzWKo | freeCodeCamp (Patrick Loeber)
+
+| # | Chapter | Key Topics |
+|---|---------|------------|
+| 49 | Sets | Unique collections, union/intersection/difference, frozenset, O(1) membership |
+| 50 | Collections Module | Counter, namedtuple, OrderedDict, defaultdict, deque |
+| 51 | Itertools | product, permutations, combinations, accumulate, groupby, chain, islice |
+| 52 | Exceptions and Errors | try/except/else/finally, custom exceptions, raising exceptions |
+| 53 | Logging | Levels, basicConfig, FileHandler, formatters, multi-handler setup |
+| 54 | JSON | dumps/loads, dump/load, pretty print, custom encoder, datetime serialization |
+| 55 | Random Numbers | random, randint, choice, shuffle, sample, seeds, secrets module |
+| 56 | Decorators | First-class functions, @decorator, functools.wraps, decorator args, class decorators |
+| 57 | Function Arguments (Advanced) | *args, **kwargs, keyword-only, mutable default pitfall |
+| 58 | Asterisk Operator | Unpack, collect, merge dicts, extended unpacking, keyword-only enforcement |
+| 59 | Shallow vs Deep Copying | Assignment, copy.copy(), copy.deepcopy(), nested object gotchas |
+| 60 | Context Managers | with statement, __enter__/__exit__, @contextmanager, exception suppression |
+| 61 | Threading vs Multiprocessing | GIL, I/O-bound vs CPU-bound, concurrency vs parallelism |
+| 62 | Multithreading | threading.Thread, daemon threads, Lock, race conditions, ThreadPoolExecutor |
+| 63 | Multiprocessing | Process, Pool, Queue, Pipe, shared memory, ProcessPoolExecutor |
+
 ---
 
 ## Folder Structure
@@ -87,8 +109,8 @@ python_complete_masterclass/
 ├── 02_Variables_Expressions_Statements/
 │   ├── README.md
 │   └── program.py
-... (48 chapters total)
-└── 48_REST_API/
+... (63 chapters total)
+└── 63_Multiprocessing/
     ├── README.md
     └── program.py
 ```
@@ -104,9 +126,12 @@ python_complete_masterclass/
 ### Learning Path
 1. **Complete beginner**: Start at Chapter 01 and go in order
 2. **Know basics already**: Jump to Chapter 17 for advanced topics
-3. **Data professionals**: Focus on Ch 43 (Matplotlib), 44 (Pandas), 15 (SQL), 48 (REST API)
-4. **Web developers**: Focus on Ch 45 (Flask), 41 (Streamlit), 48 (REST API)
-5. **Data engineers**: Focus on Ch 40 (Airflow), 44 (Pandas), 29 (DB), 38 (Generators)
+3. **Intermediate Python**: Ch 49-63 covers language internals and concurrency
+4. **Data professionals**: Focus on Ch 43 (Matplotlib), 44 (Pandas), 15 (SQL), 48 (REST API)
+5. **Web developers**: Focus on Ch 45 (Flask), 41 (Streamlit), 48 (REST API)
+6. **Data engineers**: Focus on Ch 40 (Airflow), 44 (Pandas), 29 (DB), 38 (Generators)
+7. **Production code**: Ch 52 (Exceptions), 53 (Logging), 54 (JSON), 56 (Decorators), 60 (Context Managers)
+8. **Concurrency**: Ch 61 (Threading vs MP), 62 (Multithreading), 63 (Multiprocessing)
 
 ### Running Each Chapter
 ```bash
@@ -126,13 +151,14 @@ pip install pandas matplotlib flask pytest streamlit apscheduler requests
 | Skill Level | Chapters to Master |
 |-------------|-------------------|
 | Beginner    | 01-10             |
-| Intermediate| 11-22             |
+| Intermediate| 11-22, 49-60      |
 | OOP         | 14, 23-28         |
 | Functional  | 30-38, 47         |
 | Testing     | 39                |
 | Data        | 43, 44            |
 | Web         | 12, 45, 48        |
-| Production  | 10, 17, 29, 40    |
+| Production  | 52, 53, 54, 60    |
+| Concurrency | 61, 62, 63        |
 
 ---
 
@@ -141,3 +167,5 @@ pip install pandas matplotlib flask pytest streamlit apscheduler requests
 - **Tamil Python Masterclass**: https://youtu.be/HAxm8n9QY50 (Data Engineering, Gowtham)
   - 12-hour comprehensive course originally in Tamil
   - All notes in this pack translated and written in English
+- **Intermediate Python**: https://youtu.be/HGOBQPFzWKo (freeCodeCamp, Patrick Loeber)
+  - Merged from separate intermediate_python repository (Ch 49-63)

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/tamilvanan/Documents/learnings/intermediate_python/17_Multiprocessing/**)",
+      "Read(//Users/tamilvanan/Documents/learnings/intermediate_python/18_Function_Arguments/**)",
+      "Read(//Users/tamilvanan/Documents/learnings/intermediate_python/19_Asterisk_Operator/**)",
+      "Read(//Users/tamilvanan/Documents/learnings/intermediate_python/20_Shallow_vs_Deep_Copying/**)",
+      "Read(//Users/tamilvanan/Documents/learnings/intermediate_python/21_Context_Managers/**)"
+    ]
+  }
+}
